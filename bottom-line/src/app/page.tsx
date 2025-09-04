@@ -28,9 +28,6 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-emerald-600 font-bold tracking-tight text-xl">CHURCH.TECH</span>
-          </div>
-          <a className="text-sm text-gray-600 hover:text-gray-900" href="#">Help Center</a>
-        </div>
       </header>
 
       <div className="mx-auto max-w-5xl p-6">
