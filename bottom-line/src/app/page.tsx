@@ -1,5 +1,3 @@
-Here’s the full corrected page.tsx you can drop in. This version keeps CHURCH.TECH, removes Sermons.Tech, removes the Help Center link, and keeps the simpler description.
-
 "use client";
 
 import { useState } from "react";
@@ -91,7 +89,3 @@ export default function Home() {
     </main>
   );
 }
-
-Paste this into src/app/page.tsx, commit, and Vercel will redeploy with CHURCH.TECH as the only header text.
-
-Do you also want me to add a small “beta” tag next to CHURCH.TECH (like a subtle pill badge), or just leave the plain text?
