@@ -28,7 +28,6 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className="text-emerald-600 font-bold tracking-tight text-xl">CHURCH.TECH</span>
-            <span className="text-sm text-gray-500">Sermons.Tech</span>
           </div>
           <a className="text-sm text-gray-600 hover:text-gray-900" href="#">Help Center</a>
         </div>
@@ -37,7 +36,7 @@ export default function Home() {
       <div className="mx-auto max-w-5xl p-6">
         <h1 className="text-2xl font-semibold text-gray-900 mb-2">Bottom Line Generator</h1>
         <p className="text-gray-600 mb-6">
-          Paste your sermon notes. The app returns ten bottom line statements labeled with their PREACH category.
+          Paste your sermon notes. The app returns ten bottom line statements.
         </p>
 
         <form onSubmit={generate} className="space-y-4">
